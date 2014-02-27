@@ -1,0 +1,619 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>hammer.js/hammer.min.map at master · EightMedia/hammer.js · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png" />
+    <meta property="fb:app_id" content="1401488693436528"/>
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="EightMedia/hammer.js" name="twitter:title" /><meta content="hammer.js - A javascript library for multi-touch gestures :// You can touch this" name="twitter:description" /><meta content="https://avatars.githubusercontent.com/u/728736" name="twitter:image:src" />
+<meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars.githubusercontent.com/u/728736" property="og:image" /><meta content="EightMedia/hammer.js" property="og:title" /><meta content="https://github.com/EightMedia/hammer.js" property="og:url" /><meta content="hammer.js - A javascript library for multi-touch gestures :// You can touch this" property="og:description" />
+
+    <meta name="hostname" content="github-fe132-cp1-prd.iad.github.net">
+    <meta name="ruby" content="ruby 2.1.0p0-github-tcmalloc (87c9373a41) [x86_64-linux]">
+    <link rel="assets" href="https://github.global.ssl.fastly.net/">
+    <link rel="conduit-xhr" href="https://ghconduit.com:25035/">
+    <link rel="xhr-socket" href="/_sockets" />
+
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="selected-link" value="repo_source" data-pjax-transient />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="80EBD315:44D7:708442:530EA016" name="octolytics-dimension-request_id" />
+    
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="yZY6TUrT2hEpOEIJcm8bsm+Mcqec436WQIswkdPKGCI=" name="csrf-token" />
+
+    <link href="https://github.global.ssl.fastly.net/assets/github-99f0c420247f036251131234f2df1eaaf2ddb386.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://github.global.ssl.fastly.net/assets/github2-ec653e1d641c436ec4d6b01cc500917e35f6fa2d.css" media="all" rel="stylesheet" type="text/css" />
+    
+    
+
+
+      <script crossorigin="anonymous" src="https://github.global.ssl.fastly.net/assets/frameworks-01ab94ef47d6293597922a1fab60e274e1d8f37e.js" type="text/javascript"></script>
+      <script async="async" crossorigin="anonymous" src="https://github.global.ssl.fastly.net/assets/github-503e94cbf26ee02e8f8908f6cfda39f6b1947500.js" type="text/javascript"></script>
+      
+      <meta http-equiv="x-pjax-version" content="24062edff74e74a6d1daa0f9c82f64a1">
+
+        <link data-pjax-transient rel='permalink' href='/EightMedia/hammer.js/blob/d0bac7f9daa6793219a7d823dfee8d9e98b7ed75/hammer.min.map'>
+
+  <meta name="description" content="hammer.js - A javascript library for multi-touch gestures :// You can touch this" />
+
+  <meta content="728736" name="octolytics-dimension-user_id" /><meta content="EightMedia" name="octolytics-dimension-user_login" /><meta content="3602123" name="octolytics-dimension-repository_id" /><meta content="EightMedia/hammer.js" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="3602123" name="octolytics-dimension-repository_network_root_id" /><meta content="EightMedia/hammer.js" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/EightMedia/hammer.js/commits/master.atom" rel="alternate" title="Recent Commits to hammer.js:master" type="application/atom+xml" />
+
+  </head>
+
+
+  <body class="logged_out  env-production  vis-public page-blob tipsy-tooltips">
+    <div class="wrapper">
+      
+      
+      
+      
+
+
+      
+      <div class="header header-logged-out">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions">
+        <a class="button primary" href="/join">Sign up</a>
+      <a class="button signin" href="/login?return_to=%2FEightMedia%2Fhammer.js%2Fblob%2Fmaster%2Fhammer.min.map">Sign in</a>
+    </div>
+
+    <div class="command-bar js-command-bar  in-repository">
+
+      <ul class="top-nav">
+          <li class="explore"><a href="/explore">Explore</a></li>
+        <li class="features"><a href="/features">Features</a></li>
+          <li class="enterprise"><a href="https://enterprise.github.com/">Enterprise</a></li>
+          <li class="blog"><a href="/blog">Blog</a></li>
+      </ul>
+        <form accept-charset="UTF-8" action="/search" class="command-bar-form" id="top_search_form" method="get">
+
+<input type="text" data-hotkey="/ s" name="q" id="js-command-bar-field" placeholder="Search or type a command" tabindex="1" autocapitalize="off"
+    
+    
+      data-repo="EightMedia/hammer.js"
+      data-branch="master"
+      data-sha="ca16f1d66c9db1bd720e41044e00a8ef6412ef4f"
+  >
+
+    <input type="hidden" name="nwo" value="EightMedia/hammer.js" />
+
+    <div class="select-menu js-menu-container js-select-menu search-context-select-menu">
+      <span class="minibutton select-menu-button js-menu-target" role="button" aria-haspopup="true">
+        <span class="js-select-button">This repository</span>
+      </span>
+
+      <div class="select-menu-modal-holder js-menu-content js-navigation-container" aria-hidden="true">
+        <div class="select-menu-modal">
+
+          <div class="select-menu-item js-navigation-item js-this-repository-navigation-item selected">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" class="js-search-this-repository" name="search_target" value="repository" checked="checked" />
+            <div class="select-menu-item-text js-select-button-text">This repository</div>
+          </div> <!-- /.select-menu-item -->
+
+          <div class="select-menu-item js-navigation-item js-all-repositories-navigation-item">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" name="search_target" value="global" />
+            <div class="select-menu-item-text js-select-button-text">All repositories</div>
+          </div> <!-- /.select-menu-item -->
+
+        </div>
+      </div>
+    </div>
+
+  <span class="help tooltipped tooltipped-s" aria-label="Show command bar help">
+    <span class="octicon octicon-question"></span>
+  </span>
+
+
+  <input type="hidden" name="ref" value="cmdform">
+
+</form>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+        
+
+<ul class="pagehead-actions">
+
+
+  <li>
+    <a href="/login?return_to=%2FEightMedia%2Fhammer.js"
+    class="minibutton with-count js-toggler-target star-button tooltipped tooltipped-n"
+    aria-label="You must be signed in to use this feature" rel="nofollow">
+    <span class="octicon octicon-star"></span>Star
+  </a>
+
+    <a class="social-count js-social-count" href="/EightMedia/hammer.js/stargazers">
+      6,991
+    </a>
+
+  </li>
+
+    <li>
+      <a href="/login?return_to=%2FEightMedia%2Fhammer.js"
+        class="minibutton with-count js-toggler-target fork-button tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-git-branch"></span>Fork
+      </a>
+      <a href="/EightMedia/hammer.js/network" class="social-count">
+        1,117
+      </a>
+    </li>
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="repo-label"><span>public</span></span>
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author">
+            <a href="/EightMedia" class="url fn" itemprop="url" rel="author"><span itemprop="title">EightMedia</span></a>
+          </span>
+          <span class="repohead-name-divider">/</span>
+          <strong><a href="/EightMedia/hammer.js" class="js-current-repository js-repo-home-link">hammer.js</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="Octocat-spinner-32" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline js-new-discussion-timeline  ">
+        <div class="repository-sidebar clearfix">
+            
+
+<div class="sunken-menu vertical-right repo-nav js-repo-nav js-repository-container-pjax js-octicon-loaders">
+  <div class="sunken-menu-contents">
+    <ul class="sunken-menu-group">
+      <li class="tooltipped tooltipped-w" aria-label="Code">
+        <a href="/EightMedia/hammer.js" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-gotokey="c" data-pjax="true" data-selected-links="repo_source repo_downloads repo_commits repo_tags repo_branches /EightMedia/hammer.js">
+          <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+        <li class="tooltipped tooltipped-w" aria-label="Issues">
+          <a href="/EightMedia/hammer.js/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-gotokey="i" data-selected-links="repo_issues /EightMedia/hammer.js/issues">
+            <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+            <span class='counter'>88</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Pull Requests">
+        <a href="/EightMedia/hammer.js/pulls" aria-label="Pull Requests" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-gotokey="p" data-selected-links="repo_pulls /EightMedia/hammer.js/pulls">
+            <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
+            <span class='counter'>3</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+
+        <li class="tooltipped tooltipped-w" aria-label="Wiki">
+          <a href="/EightMedia/hammer.js/wiki" aria-label="Wiki" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="repo_wiki /EightMedia/hammer.js/wiki">
+            <span class="octicon octicon-book"></span> <span class="full-word">Wiki</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+    </ul>
+    <div class="sunken-menu-separator"></div>
+    <ul class="sunken-menu-group">
+
+      <li class="tooltipped tooltipped-w" aria-label="Pulse">
+        <a href="/EightMedia/hammer.js/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="pulse /EightMedia/hammer.js/pulse">
+          <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Graphs">
+        <a href="/EightMedia/hammer.js/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="repo_graphs repo_contributors /EightMedia/hammer.js/graphs">
+          <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Network">
+        <a href="/EightMedia/hammer.js/network" aria-label="Network" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-selected-links="repo_network /EightMedia/hammer.js/network">
+          <span class="octicon octicon-git-branch"></span> <span class="full-word">Network</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+    </ul>
+
+
+  </div>
+</div>
+
+              <div class="only-with-full-nav">
+                
+
+  
+
+<div class="clone-url open"
+  data-protocol-type="http"
+  data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">
+  <h3><strong>HTTPS</strong> clone URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/EightMedia/hammer.js.git" readonly="readonly">
+
+    <span aria-label="copy to clipboard" class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/EightMedia/hammer.js.git" data-copied-hint="copied!"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+  
+
+<div class="clone-url "
+  data-protocol-type="subversion"
+  data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone">
+  <h3><strong>Subversion</strong> checkout URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/EightMedia/hammer.js" readonly="readonly">
+
+    <span aria-label="copy to clipboard" class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/EightMedia/hammer.js" data-copied-hint="copied!"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+
+<p class="clone-options">You can clone with
+      <a href="#" class="js-clone-selector" data-protocol="http">HTTPS</a>
+      or <a href="#" class="js-clone-selector" data-protocol="subversion">Subversion</a>.
+  <span class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <a href="https://help.github.com/articles/which-remote-url-should-i-use">
+    <span class="octicon octicon-question"></span>
+    </a>
+  </span>
+</p>
+
+
+
+                <a href="/EightMedia/hammer.js/archive/master.zip"
+                   class="minibutton sidebar-button"
+                   title="Download this repository as a zip file"
+                   rel="nofollow">
+                  <span class="octicon octicon-cloud-download"></span>
+                  Download ZIP
+                </a>
+              </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+          
+
+
+<!-- blob contrib key: blob_contributors:v21:06d589e393f9f22f7dce2b8dcb299a92 -->
+
+<p title="This is a placeholder element" class="js-history-link-replace hidden"></p>
+
+<a href="/EightMedia/hammer.js/find/master" data-pjax data-hotkey="t" class="js-show-file-finder" style="display:none">Show File Finder</a>
+
+<div class="file-navigation">
+  
+
+<div class="select-menu js-menu-container js-select-menu" >
+  <span class="minibutton select-menu-button js-menu-target" data-hotkey="w"
+    data-master-branch="master"
+    data-ref="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-remove-close js-menu-close"></span>
+      </div> <!-- /.select-menu-header -->
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div><!-- /.select-menu-tabs -->
+      </div><!-- /.select-menu-filters -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/EightMedia/hammer.js/blob/archive/hammer.min.map"
+                 data-name="archive"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="archive">archive</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/EightMedia/hammer.js/blob/gh-pages/hammer.min.map"
+                 data-name="gh-pages"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="gh-pages">gh-pages</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item selected">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/EightMedia/hammer.js/blob/master/hammer.min.map"
+                 data-name="master"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="master">master</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/EightMedia/hammer.js/tree/v1.0.5/hammer.min.map"
+                 data-name="v1.0.5"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v1.0.5">v1.0.5</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/EightMedia/hammer.js/tree/v1.0.4/hammer.min.map"
+                 data-name="v1.0.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v1.0.4">v1.0.4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/EightMedia/hammer.js/tree/v1.0.3/hammer.min.map"
+                 data-name="v1.0.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v1.0.3">v1.0.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/EightMedia/hammer.js/tree/v1.0.2/hammer.min.map"
+                 data-name="v1.0.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v1.0.2">v1.0.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/EightMedia/hammer.js/tree/v1.0.1/hammer.min.map"
+                 data-name="v1.0.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v1.0.1">v1.0.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/EightMedia/hammer.js/tree/v1.0.0/hammer.min.map"
+                 data-name="v1.0.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v1.0.0">v1.0.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/EightMedia/hammer.js/tree/1.0.6/hammer.min.map"
+                 data-name="1.0.6"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.0.6">1.0.6</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+    </div> <!-- /.select-menu-modal -->
+  </div> <!-- /.select-menu-modal-holder -->
+</div> <!-- /.select-menu -->
+
+  <div class="breadcrumb">
+    <span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/EightMedia/hammer.js" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">hammer.js</span></a></span></span><span class="separator"> / </span><strong class="final-path">hammer.min.map</strong> <span aria-label="copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="hammer.min.map" data-copied-hint="copied!"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+
+  <div class="commit file-history-tease">
+    <img alt="Jorik Tangelder" class="main-avatar js-avatar" data-user="1243901" height="24" src="https://avatars.githubusercontent.com/u/1243901" width="24" />
+    <span class="author"><a href="/jtangelder" rel="author">jtangelder</a></span>
+    <time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2014-02-18T00:06:36-08:00" title="2014-02-18 00:06:36">February 18, 2014</time>
+    <div class="commit-title">
+        <a href="/EightMedia/hammer.js/commit/d0bac7f9daa6793219a7d823dfee8d9e98b7ed75" class="message" data-pjax="true" title="build">build</a>
+    </div>
+
+    <div class="participation">
+      <p class="quickstat"><a href="#blob_contributors_box" rel="facebox"><strong>2</strong> contributors</a></p>
+          <a class="avatar tooltipped tooltipped-s" aria-label="jtangelder" href="/EightMedia/hammer.js/commits/master/hammer.min.map?author=jtangelder"><img alt="Jorik Tangelder" class=" js-avatar" data-user="1243901" height="20" src="https://avatars.githubusercontent.com/u/1243901" width="20" /></a>
+    <a class="avatar tooltipped tooltipped-s" aria-label="sithmel" href="/EightMedia/hammer.js/commits/master/hammer.min.map?author=sithmel"><img alt="Maurizio Lupo" class=" js-avatar" data-user="460811" height="20" src="https://avatars.githubusercontent.com/u/460811" width="20" /></a>
+
+
+    </div>
+    <div id="blob_contributors_box" style="display:none">
+      <h2 class="facebox-header">Users who have contributed to this file</h2>
+      <ul class="facebox-user-list">
+          <li class="facebox-user-list-item">
+            <img alt="Jorik Tangelder" class=" js-avatar" data-user="1243901" height="24" src="https://avatars.githubusercontent.com/u/1243901" width="24" />
+            <a href="/jtangelder">jtangelder</a>
+          </li>
+          <li class="facebox-user-list-item">
+            <img alt="Maurizio Lupo" class=" js-avatar" data-user="460811" height="24" src="https://avatars.githubusercontent.com/u/460811" width="24" />
+            <a href="/sithmel">sithmel</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+
+<div class="file-box">
+  <div class="file">
+    <div class="meta clearfix">
+      <div class="info file-name">
+        <span class="icon"><b class="octicon octicon-file-text"></b></span>
+        <span class="mode" title="File Mode">file</span>
+        <span class="meta-divider"></span>
+          <span>1 lines (1 sloc)</span>
+          <span class="meta-divider"></span>
+        <span>18.698 kb</span>
+      </div>
+      <div class="actions">
+        <div class="button-group">
+              <a class="minibutton disabled tooltipped tooltipped-w" href="#"
+                 aria-label="You must be signed in to make or propose changes">Edit</a>
+          <a href="/EightMedia/hammer.js/raw/master/hammer.min.map" class="button minibutton " id="raw-url">Raw</a>
+            <a href="/EightMedia/hammer.js/blame/master/hammer.min.map" class="button minibutton js-update-url-with-hash">Blame</a>
+          <a href="/EightMedia/hammer.js/commits/master/hammer.min.map" class="button minibutton " rel="nofollow">History</a>
+        </div><!-- /.button-group -->
+          <a class="minibutton danger disabled empty-icon tooltipped tooltipped-w" href="#"
+             aria-label="You must be signed in to make or propose changes">
+          Delete
+        </a>
+      </div><!-- /.actions -->
+    </div>
+        <div class="blob-wrapper data type-text js-blob-data">
+        <table class="file-code file-diff tab-size-8">
+          <tr class="file-code-line">
+            <td class="blob-line-nums">
+              <span id="L1" rel="#L1">1</span>
+
+            </td>
+            <td class="blob-line-code"><div class="code-body highlight"><pre><div class='line' id='LC1'>{&quot;version&quot;:3,&quot;file&quot;:&quot;hammer.min.js&quot;,&quot;sources&quot;:[&quot;hammer.js&quot;],&quot;names&quot;:[&quot;window&quot;,&quot;undefined&quot;,&quot;setup&quot;,&quot;Hammer&quot;,&quot;READY&quot;,&quot;event&quot;,&quot;determineEventTypes&quot;,&quot;utils&quot;,&quot;each&quot;,&quot;gestures&quot;,&quot;gesture&quot;,&quot;detection&quot;,&quot;register&quot;,&quot;onTouch&quot;,&quot;DOCUMENT&quot;,&quot;EVENT_MOVE&quot;,&quot;detect&quot;,&quot;EVENT_END&quot;,&quot;element&quot;,&quot;options&quot;,&quot;Instance&quot;,&quot;defaults&quot;,&quot;stop_browser_behavior&quot;,&quot;userSelect&quot;,&quot;touchAction&quot;,&quot;touchCallout&quot;,&quot;contentZooming&quot;,&quot;userDrag&quot;,&quot;tapHighlightColor&quot;,&quot;HAS_POINTEREVENTS&quot;,&quot;navigator&quot;,&quot;pointerEnabled&quot;,&quot;msPointerEnabled&quot;,&quot;HAS_TOUCHEVENTS&quot;,&quot;MOBILE_REGEX&quot;,&quot;NO_MOUSEEVENTS&quot;,&quot;userAgent&quot;,&quot;match&quot;,&quot;EVENT_TYPES&quot;,&quot;DIRECTION_DOWN&quot;,&quot;DIRECTION_LEFT&quot;,&quot;DIRECTION_UP&quot;,&quot;DIRECTION_RIGHT&quot;,&quot;POINTER_MOUSE&quot;,&quot;POINTER_TOUCH&quot;,&quot;POINTER_PEN&quot;,&quot;UPDATE_VELOCITY_INTERVAL&quot;,&quot;EVENT_START&quot;,&quot;document&quot;,&quot;plugins&quot;,&quot;extend&quot;,&quot;dest&quot;,&quot;src&quot;,&quot;merge&quot;,&quot;key&quot;,&quot;obj&quot;,&quot;iterator&quot;,&quot;context&quot;,&quot;i&quot;,&quot;length&quot;,&quot;forEach&quot;,&quot;call&quot;,&quot;hasOwnProperty&quot;,&quot;hasParent&quot;,&quot;node&quot;,&quot;parent&quot;,&quot;parentNode&quot;,&quot;getCenter&quot;,&quot;touches&quot;,&quot;valuesX&quot;,&quot;valuesY&quot;,&quot;touch&quot;,&quot;push&quot;,&quot;clientX&quot;,&quot;pageX&quot;,&quot;clientY&quot;,&quot;pageY&quot;,&quot;Math&quot;,&quot;min&quot;,&quot;apply&quot;,&quot;max&quot;,&quot;getVelocity&quot;,&quot;delta_time&quot;,&quot;delta_x&quot;,&quot;delta_y&quot;,&quot;x&quot;,&quot;abs&quot;,&quot;y&quot;,&quot;getAngle&quot;,&quot;touch1&quot;,&quot;touch2&quot;,&quot;atan2&quot;,&quot;PI&quot;,&quot;getDirection&quot;,&quot;getDistance&quot;,&quot;sqrt&quot;,&quot;getScale&quot;,&quot;start&quot;,&quot;end&quot;,&quot;this&quot;,&quot;getRotation&quot;,&quot;isVertical&quot;,&quot;direction&quot;,&quot;stopDefaultBrowserBehavior&quot;,&quot;css_props&quot;,&quot;style&quot;,&quot;vendor&quot;,&quot;value&quot;,&quot;prop&quot;,&quot;substring&quot;,&quot;toUpperCase&quot;,&quot;onselectstart&quot;,&quot;ondragstart&quot;,&quot;startDefaultBrowserBehavior&quot;,&quot;self&quot;,&quot;enabled&quot;,&quot;_eventStartHandler&quot;,&quot;ev&quot;,&quot;startDetect&quot;,&quot;_eventHandler&quot;,&quot;prototype&quot;,&quot;on&quot;,&quot;handler&quot;,&quot;split&quot;,&quot;addEventListener&quot;,&quot;off&quot;,&quot;removeEventListener&quot;,&quot;index&quot;,&quot;eventHandler&quot;,&quot;splice&quot;,&quot;trigger&quot;,&quot;eventData&quot;,&quot;createEvent&quot;,&quot;initEvent&quot;,&quot;target&quot;,&quot;dispatchEvent&quot;,&quot;enable&quot;,&quot;state&quot;,&quot;dispose&quot;,&quot;unbindDom&quot;,&quot;last_move_event&quot;,&quot;enable_detect&quot;,&quot;touch_triggered&quot;,&quot;bindDom&quot;,&quot;type&quot;,&quot;types&quot;,&quot;eventType&quot;,&quot;fn&quot;,&quot;sourceEventType&quot;,&quot;toLowerCase&quot;,&quot;which&quot;,&quot;count_touches&quot;,&quot;PointerEvent&quot;,&quot;updatePointer&quot;,&quot;collectEventData&quot;,&quot;getTouchList&quot;,&quot;reset&quot;,&quot;getEvents&quot;,&quot;identifier&quot;,&quot;pointerType&quot;,&quot;matchType&quot;,&quot;center&quot;,&quot;timeStamp&quot;,&quot;Date&quot;,&quot;getTime&quot;,&quot;srcEvent&quot;,&quot;preventDefault&quot;,&quot;preventManipulation&quot;,&quot;stopPropagation&quot;,&quot;stopDetect&quot;,&quot;pointers&quot;,&quot;touchlist&quot;,&quot;pointer&quot;,&quot;pointerEvent&quot;,&quot;pointerId&quot;,&quot;Object&quot;,&quot;keys&quot;,&quot;pt&quot;,&quot;MSPOINTER_TYPE_MOUSE&quot;,&quot;MSPOINTER_TYPE_TOUCH&quot;,&quot;MSPOINTER_TYPE_PEN&quot;,&quot;current&quot;,&quot;previous&quot;,&quot;stopped&quot;,&quot;inst&quot;,&quot;startEvent&quot;,&quot;lastEvent&quot;,&quot;lastVEvent&quot;,&quot;velocity&quot;,&quot;name&quot;,&quot;extendEventData&quot;,&quot;inst_options&quot;,&quot;startEv&quot;,&quot;lastVEv&quot;,&quot;interimAngle&quot;,&quot;interimDirection&quot;,&quot;deltaTime&quot;,&quot;deltaX&quot;,&quot;deltaY&quot;,&quot;velocityX&quot;,&quot;velocityY&quot;,&quot;distance&quot;,&quot;angle&quot;,&quot;scale&quot;,&quot;rotation&quot;,&quot;sort&quot;,&quot;a&quot;,&quot;b&quot;,&quot;Drag&quot;,&quot;drag_min_distance&quot;,&quot;correct_for_drag_min_distance&quot;,&quot;drag_max_touches&quot;,&quot;drag_block_horizontal&quot;,&quot;drag_block_vertical&quot;,&quot;drag_lock_to_axis&quot;,&quot;drag_lock_min_distance&quot;,&quot;triggered&quot;,&quot;factor&quot;,&quot;drag_locked_to_axis&quot;,&quot;last_direction&quot;,&quot;Hold&quot;,&quot;hold_timeout&quot;,&quot;hold_threshold&quot;,&quot;timer&quot;,&quot;clearTimeout&quot;,&quot;setTimeout&quot;,&quot;Release&quot;,&quot;Infinity&quot;,&quot;Swipe&quot;,&quot;swipe_min_touches&quot;,&quot;swipe_max_touches&quot;,&quot;swipe_velocity&quot;,&quot;Tap&quot;,&quot;tap_max_touchtime&quot;,&quot;tap_max_distance&quot;,&quot;tap_always&quot;,&quot;doubletap_distance&quot;,&quot;doubletap_interval&quot;,&quot;reachedTapMaxDistance&quot;,&quot;prev&quot;,&quot;did_doubletap&quot;,&quot;Touch&quot;,&quot;prevent_default&quot;,&quot;prevent_mouseevents&quot;,&quot;Transform&quot;,&quot;transform_min_scale&quot;,&quot;transform_min_rotation&quot;,&quot;transform_always_block&quot;,&quot;scale_threshold&quot;,&quot;rotation_threshold&quot;,&quot;define&quot;,&quot;amd&quot;,&quot;module&quot;,&quot;exports&quot;],&quot;mappings&quot;:&quot;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&quot;}</div></pre></div></td>
+          </tr>
+        </table>
+  </div>
+
+  </div>
+</div>
+
+<a href="#jump-to-line" rel="facebox[.linejump]" data-hotkey="l" class="js-jump-to-line" style="display:none">Jump to Line</a>
+<div id="jump-to-line" style="display:none">
+  <form accept-charset="UTF-8" class="js-jump-to-line-form">
+    <input class="linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" autofocus>
+    <button type="submit" class="button">Go</button>
+  </form>
+</div>
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer">
+    <ul class="site-footer-links right">
+      <li><a href="https://status.github.com/">Status</a></li>
+      <li><a href="http://developer.github.com">API</a></li>
+      <li><a href="http://training.github.com">Training</a></li>
+      <li><a href="http://shop.github.com">Shop</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/about">About</a></li>
+
+    </ul>
+
+    <a href="/">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+    </a>
+
+    <ul class="site-footer-links">
+      <li>&copy; 2014 <span title="0.02653s from github-fe132-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="/site/terms">Terms</a></li>
+        <li><a href="/site/privacy">Privacy</a></li>
+        <li><a href="/security">Security</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div><!-- /.site-footer -->
+</div><!-- /.container -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-fullscreen-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="js-fullscreen-contents" placeholder="" data-suggester="fullscreen_suggester"></textarea>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w"
+      aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-remove-close close js-ajax-error-dismiss"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+  </body>
+</html>
+
