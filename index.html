@@ -133,6 +133,26 @@
 			};
 	}());
 
+	function Carousel(element){
+		var self = this;
+		element = $(element);
+
+		var container = $(">ul", element);
+		var panes = $(">ul>li", element);
+
+		var pane_width = 0;
+		var pane_count = panes.length;
+
+		var current_pane = 0;
+
+		this.init = function() {
+			setPaneDimensions();
+
+			$(window).on("load resize orientationchange", function() {
+				setPaneDimensions();
+			})
+		};
+
 
 
 
