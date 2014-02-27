@@ -153,6 +153,44 @@
 			})
 		};
 
+		function setPaneDimensions() {
+			pane_width = element.width();
+			panes.each(function() {
+				$(this).width(pane_width);
+			});
+			container.width(pane_width*pane_count);
+		};
+
+		this.showPane = function(index, animate) {
+			index = Math.max(0, Math.min(index, pane_count-1));
+			current_pane = index;
+
+			var offset = -((100/pane_count)*current_pane);
+			setContainerOffset(offset, animate);
+		};
+
+		function setContainerOffset(percent, animate) {
+			container.removeClass("animate");
+
+			if(animate) {
+				container.addClass("animate");
+			}
+
+			if(Modernizr.csstransforms3d) {
+				container.css("transform", "translate3d("+ percent +"%,0,0) scale3d(1,1,1)");
+			}
+			else if(Modernizr.csstransforms) {
+				container.css("transform", "translate("+ percent +"%,0)");
+			}
+			else {
+				var px = ((pane_width*pane_count) / 100) * percent;
+				container.css("left", px+"px");
+			}
+		}
+
+		this.next = function() { return this.showPane(current_pane+1, true); };
+		this.prev = function() { return this.showPane(current_pane-1, true); };
+
 
 
 
