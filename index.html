@@ -191,8 +191,56 @@
 		this.next = function() { return this.showPane(current_pane+1, true); };
 		this.prev = function() { return this.showPane(current_pane-1, true); };
 
+		function handleHammer(ev) {
+			console.log(ev);
+			ev.gesture.preventDefault();
 
+			switch(ev.type) {
+				case 'dragright':
+				case 'dragleft':
 
+					var pane_offset = -(100/pane_count)*current_pane;
+					var drag_offset = ((100/pane_width)*ev.gesture.deltaX) / pane_count;
+
+					if((current_pane == 0 && ev.gesture.direction == "right") || (current_pane == pane_count-1 && ev.gesture.direction == "left")) {
+						drag_offset *= .4;
+					}
+
+					setContainerOffset(drag_offset + pane_offset);
+					break;
+
+				case 'swipeleft':
+					self.next();
+					ev.gesture.stopDetect();
+					break;
+
+				case 'swiperight':
+					self.prev();
+					ev.gesture.stopDetect();
+					break;
+
+				case 'release':
+					if(Math.abs(ev.gesture.deltaX) > pane_width/2) {
+						if(ev.gesture.direction == 'right'){
+							self.prev();} 
+						else {
+							self.next();
+						}
+					}
+					else {
+						self.showPane(current_pane, true);
+					}
+					break;
+				}
+			}
+
+			var hammertime = new Hammer(element[0], { drag_lock_to_axis: true });
+			hammertime.on("release dragleft dragright swipeleft swiperight", handleHammer);
+		}
+
+		var carousel = new Carousel("#carousel");
+		carousel.init();
+		</script>
 
 
 
