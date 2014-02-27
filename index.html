@@ -82,6 +82,17 @@
         #carousel li.pane5 { background:url(../homework2/bg8.jpg); }
 
     </style>
+    <style>
+    	body{
+		padding:0;
+		overflow:hidden;
+	}
+	#pinchzoom{
+		-webkit-transform: translate3d(0,0,0);
+		overflow:hidden;
+	}
+    </style>
+
 </head>
 
 <body>
@@ -97,7 +108,12 @@
             <li class="pane5"><h2>Sepang</h2></li>
         </ul>
     </div>
-
+    
+    <div id="pinchzoom">
+    	<div>
+		<img id="rect" src="stickers/veneno_cutout.jpg">
+	</div>
+    </div>
 		
 
     <!-- jQuery is just for the demo! Hammer.js works without jQuery :-) -->
@@ -280,7 +296,51 @@
 
 
     </script>
+    <script>
+    	var hammertime = Hammer(document.getElementById('pinchzoom'),{
+		transform_always_block:true,
+		transform_min_scale: 1,
+		drag_block_horizontal: true,
+		drag_block_vertical: true,
+		drag_min_distance: 0
+	});
 
+	var rect = document.getElementById('rect');
+
+	var posX=0, posY=0,
+		scale=1, last_scale,
+		rotation= 1, last_rotation;
+
+	hammertime.on('touch drag transform', function(ev) {
+		switch(ev.type) {
+			case 'touch':
+				last_scale = scale;
+				last_rotation = rotation;
+				break;
+
+			case 'drag':
+				posX = ev.gesture.deltaX;
+				posY = ev.gesture.deltaY;
+				break;
+
+			case 'transform':
+				rotation = last_rotation + ev.gesture.rotation;
+				scale = Math.max(1, Math.min(last_scale * ev.gesture.scale, 10));
+				break;
+			}
+
+			var transform =
+				"translate3d("+posX+"px,"+posY+"px, 0) " +
+				"scale3d("+scale+","+scale+", 1) " +
+				"rotate("+rotation+"deg) ";
+
+			rect.style.transform = transform;
+			rect.style.oTransform = transform;
+			rect.style.msTransform = transform;
+			rect.style.mozTransform = transform;
+			rect.style.webkitTransform = transform;
+		});
+		</script>
 
 </body>
 </html>
