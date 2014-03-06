@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hammer.js</title>
+    <title>Hammer.js Change for github example</title>
     <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet">
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
     <style>
 
         html, body, #carousel, #carousel ul, #carousel li {
-            min-height: 100%;
             height: 100%;
             padding: 0;
             margin: 0;
             position: relative;
+            min-height: 100%;
         }
 
         #debug {
@@ -21,7 +21,7 @@
             color: #000;
             top: 0;
             left: 0;
-            z-index: 1337;
+            z-index: -1;
         }
 
         #carousel {
@@ -81,16 +81,12 @@
         #carousel li.pane4 { background:url(../homework2/bg7.jpg); }
         #carousel li.pane5 { background:url(../homework2/bg8.jpg); }
 
-    </style>
-    <style>
-    	body{
-		padding:0;
-		overflow:hidden;
-	}
 	#pinchzoom{
 		-webkit-transform: translate3d(0,0,0);
 		overflow:hidden;
+		z-index=2;
 	}
+	
     </style>
 
 </head>
@@ -99,7 +95,11 @@
 
     <!--<div id="debug">Log</div>-->
 
-    <div id="carousel">
+    <div id="pinchzoom">
+		<img id="rect" src="stickers/veneno_cutout.png">
+    </div>
+    
+    <div id="carousel" style="z-index: 1">
         <ul>
             <li class="pane1"><h2>Nurburgring</h2></li>
             <li class="pane2"><h2>Laguna Seca</h2></li>
@@ -109,11 +109,6 @@
         </ul>
     </div>
     
-    <div id="pinchzoom">
-    	<div>
-		<img id="rect" src="stickers/veneno_cutout.png">
-	</div>
-    </div>
 		
 
     <!-- jQuery is just for the demo! Hammer.js works without jQuery :-) -->
@@ -299,7 +294,7 @@
     <script>
     	var hammertime = Hammer(document.getElementById('pinchzoom'),{
 		transform_always_block:true,
-		transform_min_scale: 1,
+		transform_min_scale: .5,
 		drag_block_horizontal: true,
 		drag_block_vertical: true,
 		drag_min_distance: 0
@@ -341,6 +336,6 @@
 			rect.style.webkitTransform = transform;
 		});
 		</script>
-
+		
 </body>
 </html>
